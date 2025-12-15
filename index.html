@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yaseen's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">YASEEN<span class="dot">.</span></div>
+        
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="theme-icon-container">
+                <i class="fas fa-sun" id="theme-toggle"></i>
+            </div>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+<section id="home" class="hero">
+        <div class="container">
+            <p class="greeting">Hi, my name is</p>
+            <h1>Ajmal Yaseen.</h1>
+            <h2 class="subtitle">Aspiring Backend Developer.</h2>
+            <p class="description">
+                I am a BCA Final Year student passionate about 
+                <span class="highlight">Python, Django & DSA</span>. 
+                I am currently building my skills and looking for internship opportunities.
+            </p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+<section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a Final Year BCA student with a strong passion for backend development. 
+                        My journey started with Python and Object-Oriented Programming (OOP), and I am currently diving deep into 
+                        <strong>Data Structures and Algorithms (DSA)</strong> to sharpen my problem-solving skills.
+                    </p>
+                    <br>
+                    <p>
+                        I build web applications using <strong>Django</strong> and have hands-on experience with databases like 
+                        <strong>PostgreSQL</strong> and <strong>SQLite</strong>. I describe myself as a continuous learner who loves 
+                        turning logic into functional code.
+                    </p>
+                    <br>
+                    <p>
+                        Currently, I am seeking <strong>internship opportunities</strong> to apply my skills in a real-world 
+                        environment and grow as a software engineer.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            
+            <div class="skills-wrapper">
+                
+                <div class="skill-category">
+                    <h3>Front End</h3>
+                    <div class="skill-tags">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML & CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-wind"></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JS (Basic)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Back End</h3>
+                    <div class="skill-tags">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-layer-group"></i> <span>Django</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-table"></i>
+                            <span>SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Some Things I've Built</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="far fa-folder open-folder"></i>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Expense Tracker</h3>
+                    <p>A web application aimed at helping users track their daily expenses using Django and SQLite.</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Django</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="far fa-folder open-folder"></i>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>To-Do List</h3>
+                    <p>A simple CRUD application to manage tasks efficiently with status updates.</p>
+                    <div class="tech-stack">
+                        <span>Python</span><span>Django</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <p class="greeting text-center">What's Next?</p>
+            <h2 class="big-heading text-center">Get In Touch</h2>
+            <p class="description centered text-center">
+                I am currently looking for new opportunities. Whether you have a question or just want to say hi, 
+                my inbox is always open!
+            </p>
+            <div class="text-center">
+                <a href="mailto:your-email@example.com" class="btn">Say Hello</a>
+            </div>
+            
+            <div class="social-links text-center">
+                <a href="https://www.linkedin.com/in/ajmal-yaseen-bb2374272/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ajmalyaseen"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed & Built by Ajmal Yaseen</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
