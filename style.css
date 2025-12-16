@@ -218,6 +218,24 @@ ul {
     background: rgba(100, 255, 218, 0.1);
 }
 
+/* --- HERO BUTTONS --- */
+.hero-buttons {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    margin-top: 30px;
+}
+
+/* Secondary Button Style (Optional distinct look) */
+.btn-outline {
+    background: transparent;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+}
+
+.btn-outline:hover {
+    background: rgba(100, 255, 218, 0.1);
+}
+
 /* =========================================
    6. ABOUT SECTION
    ========================================= */
@@ -451,4 +469,7 @@ footer {
         flex-direction: column;
         gap: 30px;
     }
+    .hero-buttons {
+        justify-content: center;
+      }
 }
